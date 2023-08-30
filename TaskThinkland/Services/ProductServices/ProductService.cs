@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TaskThinkland.Api.Context.Repositories.GenericRepositories;
 using TaskThinkland.Api.DTOs.ProductDTOs;
-using TaskThinkland.Api.DTOs.UserDTOs;
 using TaskThinkland.Api.Entities;
 using TaskThinkland.Api.Exceptions;
 using TaskThinkland.Api.Extensions;
