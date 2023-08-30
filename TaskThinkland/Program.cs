@@ -11,7 +11,6 @@ var logger = new LoggerConfiguration()
 
 builder.Logging.AddSerilog(logger);
 
-
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 

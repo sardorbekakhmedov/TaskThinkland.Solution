@@ -22,7 +22,5 @@ public static partial class ServiceCollectionExtensions
 
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IProductService, ProductService>();
-
-
     }
 }
